@@ -1,0 +1,24 @@
+.welcome, li {
+    animation-name: fadeInAnimation;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.second-div {
+    background-color: rgb(255, 90, 90);
+}
+
+.first-div {
+    display: flex;
+    background-color: rgb(219, 221, 224);
+}
