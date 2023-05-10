@@ -136,101 +136,22 @@ body {
   padding-right: 50px;
 }
 
-.about-div-1 {
-    background-color: blueviolet;
-    display: flex;
-}
-
-.about-div-2 {
-    background-color: crimson;
-}
-
-.about-div-3 {
-    background-color: burlywood;
-    display: flex;
-}
-
-.about-div-4 {
-    background-color: chocolate;
-}
-
-.basic-info {
-  background-color: cornflowerblue;
-}
-
-.flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
-  background-color: transparent;
-  width: 250px;
-  height: 250px;
-  perspective: 1000px;
-}
-
-.flip-card-inside {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card-01:hover .flip-card-inside {
-  transform: rotateY(180deg);
-}
-
-.flip-card-02:hover .flip-card-inside {
-  transform: rotateY(180deg);
-}
-
-.flip-card-03:hover .flip-card-inside {
-  transform: rotateY(180deg);
-}
-
-.flip-card-04:hover .flip-card-inside {
-  transform: rotateY(180deg);
-}
-
-.flip-card-05:hover .flip-card-inside {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-back {
-  background-color: rgb(241, 92, 92);
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.flip-card-div {
+.contact-page-div {
+    margin: auto;
   justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.email-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  background-color: aqua;
 }
 
-.flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
-  margin-left: auto;
-  margin-right: auto;
+.message-div {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
 }
 
-.hobbies-interests {
-  background-color: cornflowerblue;
-}
-
-.education-work {
-  background-color: coral;
-}
-
-.skills {
-  background-color: coral;
-}
-
-.projects {
-  background-color: burlywood;
-}
