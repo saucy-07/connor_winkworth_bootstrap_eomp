@@ -15,6 +15,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="abo">
     <nav
       class="navbar navbar-nav navbar-expand-lg navbar-dark bg-black rounded-bottom-4"
     >
@@ -23,19 +24,23 @@
           <h6 class="first-name ps-md-3 fw-bold">CONNOR W.</h6>
         </div>
         <div>
-          <ul class="navbar-nav ms-auto text-center">
-            <li class="nav-item">
+          <ul class="nav-list navbar-nav ms-auto text-center">
+            <li class="home-link nav-item">
               <a class="nav-link active fw-bold pe-md-3 home" href="/index.html"
                 ><h6>HOME</h6></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold pe-md-3 about" href="#"
+            <li class="about-link nav-item">
+              <a
+                class="nav-link active fw-bold pe-md-3 about"
+                href="#"
                 ><h6>ABOUT ME</h6></a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold pe-md-3 contact" href="/contact-page/contact.html"
+            <li class="contact-link nav-item">
+              <a
+                class="nav-link active fw-bold pe-md-3 contact"
+                href="/contact-page/contact.html"
                 ><h6>CONTACT</h6></a
               >
             </li>
@@ -44,7 +49,7 @@
       </div>
     </nav>
 
-    <div class="about-div-1 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
+    <div data-aos="fade-up" class="about-div-1 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
       <div class="basic-info container container-fluid m-sm-1 rounded-4">
         <h3 class="text-center">Basic Info</h3>
         <p>Full Name: Connor Brad Winkworth</p>
@@ -63,21 +68,21 @@
         </p>
       </div>
     </div>
-    <div class="about-div-2 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
-      <div class="testimonials">
-        <h3 class="text-center">Testimonials</h3>
+    <div data-aos="fade-up" class="about-div-2 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
+      <div class="testimonials m-auto m-sm-1 rounded-4">
+        <h3 class="text-center w-auto h-auto">Testimonials</h3>
         <p class="text-center">
           These are testimonials of some of my colleges at Life Choices Academy
         </p>
         <div class="flip-card-div">
-          <div class="flip-card-01">
+          <div data-aos="zoom-in" class="flip-card-01">
             <div class="flip-card-inside">
               <div class="flip-card-front">
                 <img
                   class="rounded-4"
                   src="/about-page/images/Liyabona 1x1.JPG"
-                  height="250px"
-                  width="250px"
+                  height="220px"
+                  width="220px"
                   alt="Liyabona"
                   loading="lazy"
                 />
@@ -90,14 +95,14 @@
             </div>
           </div>
 
-          <div class="flip-card-02">
+          <div data-aos="zoom-in" class="flip-card-02">
             <div class="flip-card-inside">
               <div class="flip-card-front">
                 <img
                   class="rounded-4"
                   src="/about-page/images/Marcel 1x1 .jpg"
-                  height="250px"
-                  width="250px"
+                  height="220px"
+                  width="220px"
                   alt="Marcel"
                   loading="lazy"
                 />
@@ -109,14 +114,14 @@
               </div>
             </div>
           </div>
-          <div class="flip-card-03">
+          <div data-aos="zoom-in" class="flip-card-03">
             <div class="flip-card-inside">
               <div class="flip-card-front">
                 <img
                   class="rounded-4"
                   src="/about-page/images/Mufuniwa 1x1.JPG"
-                  height="250px"
-                  width="250px"
+                  height="220px"
+                  width="220px"
                   alt="Mufuniwa"
                   loading="lazy"
                 />
@@ -128,14 +133,14 @@
               </div>
             </div>
           </div>
-          <div class="flip-card-04">
+          <div data-aos="zoom-in" class="flip-card-04">
             <div class="flip-card-inside">
               <div class="flip-card-front">
                 <img
                   class="rounded-4"
                   src="/about-page/images/Zubair 1x1.jpg"
-                  height="250px"
-                  width="250px"
+                  height="220px"
+                  width="220px"
                   alt="Zubair"
                   loading="lazy"
                 />
@@ -147,14 +152,14 @@
               </div>
             </div>
           </div>
-          <div class="flip-card-05">
+          <div data-aos="zoom-in" class="flip-card-05">
             <div class="flip-card-inside">
               <div class="flip-card-front">
                 <img
                   class="rounded-4"
                   src="/about-page/images/Liyabona 1x1.JPG"
-                  height="250px"
-                  width="250px"
+                  height="220px"
+                  width="220px"
                   alt="John"
                   loading="lazy"
                 />
@@ -169,7 +174,7 @@
         </div>
       </div>
     </div>
-    <div class="about-div-3 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
+    <div data-aos="fade-up" class="about-div-3 m-lg-3 p-lg-2 h-auto rounded-4 w-auto">
       <div class="education-work container container-fluid m-sm-1 rounded-4">
         <h3>Education</h3>
         <p>2023: Partaking a Web Design Course at Life Choices Academy.</p>
@@ -200,7 +205,7 @@
 
     <div
       class="about-div-4 m-lg-3 p-lg-2 h-auto rounded-4 w-auto"
-      data-aos="zoom-out-up"
+      data-aos="fade-up"
     >
       <div class="projects m-sm-1 rounded-4">
         <h3>Projects</h3>
@@ -264,6 +269,7 @@
         <p>&copy;2023 Copyright</p>
       </div>
     </footer>
+  </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
