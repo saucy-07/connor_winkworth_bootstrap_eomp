@@ -101,7 +101,7 @@
 }
 
 .first-name {
-  color: #FFDCB6;
+  color: #ffdcb6;
 }
 
 .socials-list {
@@ -132,7 +132,7 @@
 }
 
 body {
-  background-color: #FFDCB6;
+  background-color: #ffdcb6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -153,7 +153,7 @@ body {
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
-  background-color: #9384D1;
+  background-color: #9384d1;
   animation-name: fadeInAnimation3;
   animation-delay: 1.6s;
   animation-iteration-count: 1;
@@ -184,7 +184,7 @@ body {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
-  background-color: #ECC9EE;
+  background-color: #ecc9ee;
   animation-name: fadeInAnimation3;
   animation-delay: 1.2s;
   animation-iteration-count: 1;
@@ -217,7 +217,12 @@ p {
 }
 
 @media only screen and (max-width: 992px) {
-  .first-div, .contact-page-div, .connor-img-div, .second-div, .email-div, .message-div{
+  .first-div,
+  .contact-page-div,
+  .connor-img-div,
+  .second-div,
+  .email-div,
+  .message-div {
     margin: 10px;
   }
   .home-link,
@@ -226,7 +231,7 @@ p {
     padding-left: 5px;
     padding-right: 5px;
   }
-  .navbar .navbar-nav { 
+  .navbar .navbar-nav {
     display: flex;
     flex-direction: row;
   }
@@ -257,29 +262,28 @@ p {
     height: 15px;
     width: 25px;
   }
-  .socials-list{
+  .socials-list {
     gap: 10px;
   }
-  
 }
 
-@media only screen and (max-width: 800px){
-  h1{
+@media only screen and (max-width: 800px) {
+  h1 {
     font-size: 30px;
   }
-  p{
+  p {
     font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 530px) {
   .home-link,
   .about-link,
   .contact-link {
     padding-left: 5px;
     padding-right: 5px;
   }
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
   }
@@ -294,25 +298,25 @@ p {
     display: flex;
     flex-direction: column;
   }
-  .socials-list{
+  .socials-list {
     gap: 10px;
   }
 }
 
-@media only screen and (max-width: 440px){
-  h1{
+@media only screen and (max-width: 440px) {
+  h1 {
     font-size: 20px;
   }
-  p{
+  p {
     font-size: 15px;
   }
 }
 
-@media only screen and (max-width: 370px){
-  h1{
+@media only screen and (max-width: 370px) {
+  h1 {
     font-size: 15px;
   }
-  p{
+  p {
     font-size: 10px;
   }
 }

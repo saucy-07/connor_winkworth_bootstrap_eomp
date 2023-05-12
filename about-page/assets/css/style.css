@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 *::-webkit-scrollbar {
   display: none;
   overflow: hidden;
 }
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
-.flip-card-05 p{
+.flip-card-05 p {
   font-size: 10px;
 }
 .skill {
@@ -96,7 +96,7 @@
   }
 }
 .first-name {
-  color: #2D4059;
+  color: #2d4059;
 }
 .socials-list {
   display: flex;
@@ -117,7 +117,7 @@
   padding-bottom: auto;
   height: min-content;
 }
-.links a{
+.links a {
   color: #212529;
 }
 .copyright {
@@ -131,8 +131,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-.abo{
-  background-color: #2D4059;
+.abo {
+  background-color: #2d4059;
 }
 .insta,
 .facebook,
@@ -141,26 +141,30 @@ body {
   padding-right: 50px;
 }
 .about-div-1 {
-    background-color: transparent;
-    display: flex;
+  background-color: transparent;
+  display: flex;
 }
 .about-div-2 {
-    background-color: transparent;
+  background-color: transparent;
 }
 .about-div-3 {
-    background-color: transparent;
-    display: flex;
+  background-color: transparent;
+  display: flex;
 }
 .about-div-4 {
-    background-color: transparent;
+  background-color: transparent;
 }
 .basic-info {
-  background-color: #EA5455;
+  background-color: #ea5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
+.flip-card-01,
+.flip-card-02,
+.flip-card-03,
+.flip-card-04,
+.flip-card-05 {
   background-color: transparent;
   width: 220px;
   height: 220px;
@@ -190,7 +194,8 @@ body {
 .flip-card-05:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -207,124 +212,135 @@ body {
   display: flex;
   flex-direction: row;
 }
-.flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
+.flip-card-01,
+.flip-card-02,
+.flip-card-03,
+.flip-card-04,
+.flip-card-05 {
   margin-left: auto;
   margin-right: auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
 .p {
-  font-family: 'Sintony', sans-serif;
+  font-family: "Sintony", sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
 h1 h2 h3 h4 h5 h6 {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 .testimonials {
-  background-color: #F07B3F;
+  background-color: #f07b3f;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .hobbies-interests {
-  background-color: #EA5455;
+  background-color: #ea5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .education-work {
-  background-color: #FFD460;
+  background-color: #ffd460;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .skills {
-  background-color: #FFD460;
+  background-color: #ffd460;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .projects {
-  background-color: #EA5455;
+  background-color: #ea5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-  @media only screen and (max-width: 992px) {
-    .flip-card-05 p{
-      font-size: 9px;
-    }
-    p {
-      font-size: 15px;
-    }
-    .navbar .navbar-nav {
-      display: flex;
-      flex-direction: row;
-    }
-    .nav-div{
-      display: flex;
-      flex-direction: row;
-    }
-    .nav-list {
-      display: flex;
-      flex-direction: row;
-    }
-    .home-link, .about-link, .contact-link {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-    .instagram, .facebbook {
-      height: 25px;
-      width: 25px;
-    }
-    .twitter {
-      height: 30px;
-      width: 50px;
-    }
-    .gmail {
-      height: 15px;
-      width: 25px;
-    }
-    .about-div-1 {
-      margin: 20px;
-    }
-    .about-div-2 {
-      margin: 20px;
-      padding-left: auto;
-      padding-right: auto;
-      display: flex;
-      flex-direction: column;
-    }
-    .about-div-3 {
-      margin: 20px;
-    }
-    .about-div-4 {
-      margin: 20px;
-    }
-    .testimonials {
-      justify-content: center;
-    }
-    .flip-card-div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
-      padding: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      justify-content: center;
-    }
-    .flip-card-05 {
-      padding-bottom: 20px;
-      margin-bottom: 20px;
-    }
+@media only screen and (max-width: 992px) {
+  .flip-card-05 p {
+    font-size: 9px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .navbar .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-div {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-link,
+  .about-link,
+  .contact-link {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .instagram,
+  .facebbook {
+    height: 25px;
+    width: 25px;
+  }
+  .twitter {
+    height: 30px;
+    width: 50px;
+  }
+  .gmail {
+    height: 15px;
+    width: 25px;
+  }
+  .about-div-1 {
+    margin: 20px;
+  }
+  .about-div-2 {
+    margin: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-div-3 {
+    margin: 20px;
+  }
+  .about-div-4 {
+    margin: 20px;
+  }
+  .testimonials {
+    justify-content: center;
+  }
+  .flip-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flip-card-01,
+  .flip-card-02,
+  .flip-card-03,
+  .flip-card-04,
+  .flip-card-05 {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .flip-card-05 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 540px) {
-  .footer{
+  .footer {
     display: flex;
     flex-direction: column;
   }
@@ -335,12 +351,15 @@ h1 h2 h3 h4 h5 h6 {
     padding-right: auto;
     justify-content: center;
   }
-  .socials-list{
+  .socials-list {
     gap: 10px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .about-div-1, .about-div-2, .about-div-3, .about-div-4 {
+  .about-div-1,
+  .about-div-2,
+  .about-div-3,
+  .about-div-4 {
     display: flex;
     flex-direction: column;
   }
@@ -355,9 +374,8 @@ h1 h2 h3 h4 h5 h6 {
   .education-work {
     margin-bottom: 10px;
   }
-  .flip-card-front img{
+  .flip-card-front img {
     height: 200px;
     width: 200px;
   }
 }
-

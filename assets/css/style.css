@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 *::-webkit-scrollbar {
   display: none;
   overflow: hidden;
 }
-*{
-  font-family: 'Montserrat', sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 h1 {
   font-size: 80px;
@@ -40,7 +40,7 @@ h1 {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   animation-name: fadeInAnimation3;
   animation-delay: 1.2s;
   animation-iteration-count: 1;
@@ -145,7 +145,7 @@ h1 {
   }
 }
 .first-name {
-  color: #F9D949;
+  color: #f9d949;
 }
 .socials-list {
   display: flex;
@@ -173,7 +173,7 @@ h1 {
   color: white;
 }
 body {
-  background-color: #F9D949;
+  background-color: #f9d949;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -228,7 +228,7 @@ body {
   animation-fill-mode: both;
 }
 .third-div-outer {
-  background-color: #F45050;
+  background-color: #f45050;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -322,13 +322,13 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
-  h1{
+  h1 {
     font-size: 32px;
   }
-  h2{
+  h2 {
     font-size: 26px;
   }
-  h4{
+  h4 {
     font-size: 14px;
   }
   .first-div {
