@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *::-webkit-scrollbar {
   display: none;
   overflow: hidden;
 }
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 h1 {
   font-size: 80px;
 }
-
 .navbar,
 .welcome {
   animation-name: fadeInAnimation1;
@@ -15,7 +17,6 @@ h1 {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
 @keyframes fadeInAnimation1 {
   0% {
     transform: translateY(-100px);
@@ -26,7 +27,6 @@ h1 {
     opacity: 1;
   }
 }
-
 .second-div {
   background-color: transparent;
   animation-name: slideup;
@@ -35,42 +35,36 @@ h1 {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
 .first-div {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   display: flex;
-  background-color: #b2a4ff;
+  background-color: #F0F0F0;
   animation-name: fadeInAnimation3;
   animation-delay: 1.2s;
   animation-iteration-count: 1;
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 @keyframes fadeInAnimation2 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes slideup {
   0% {
     transform: translateY(60px);
     opacity: 0;
   }
-
   100% {
     transform: translateY(0px);
     opacity: 1;
   }
 }
-
 .connor-img-div {
   margin: auto;
   animation-name: slidedown;
@@ -79,19 +73,16 @@ h1 {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
 @keyframes slidedown {
   0% {
     transform: translateY(-30px);
     opacity: 0;
   }
-
   100% {
     transform: translateY(0px);
     opacity: 1;
   }
 }
-
 .home {
   animation-name: fadeInAnimation4;
   animation-delay: 1s;
@@ -99,7 +90,6 @@ h1 {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .about {
   animation-name: fadeInAnimation5;
   animation-delay: 1.2s;
@@ -107,7 +97,6 @@ h1 {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .contact {
   animation-name: fadeInAnimation7;
   animation-delay: 1.4s;
@@ -115,61 +104,49 @@ h1 {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 @keyframes fadeInAnimation3 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeInAnimation4 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeInAnimation5 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeInAnimation6 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @keyframes fadeInAnimation7 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .first-name {
-  color: rgb(233, 255, 37);
+  color: #F9D949;
 }
-
 .socials-list {
   display: flex;
   list-style: none;
@@ -189,38 +166,32 @@ h1 {
   padding-bottom: auto;
   height: min-content;
 }
-
 .copyright {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
   color: white;
 }
-
 body {
-  background-color: #ffdeb4;
+  background-color: #F9D949;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 .insta,
 .facebook,
 .twitter,
 .gmail {
   padding-right: 50px;
 }
-
 @keyframes fadeInAnimation8 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .insta {
   animation-name: fadeInAnimation7;
   animation-delay: 2.5s;
@@ -228,7 +199,6 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .facebook {
   animation-name: fadeInAnimation7;
   animation-delay: 2.7s;
@@ -236,7 +206,6 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .twitter {
   animation-name: fadeInAnimation7;
   animation-delay: 2.9s;
@@ -244,7 +213,6 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .gmail {
   animation-name: fadeInAnimation7;
   animation-delay: 3.1s;
@@ -252,7 +220,6 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .copyright {
   animation-name: fadeInAnimation7;
   animation-delay: 3.3s;
@@ -260,9 +227,8 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .third-div-outer {
-  background-color: #ffb4b4;
+  background-color: #F45050;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -272,7 +238,6 @@ body {
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .bottom-text {
   padding: 0;
   margin: 0;
@@ -283,135 +248,120 @@ body {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
 @keyframes slideleft {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 @media only screen and (max-width: 992px) {
   .nav-list {
     display: flex;
     flex-direction: row;
   }
-
   .home-link,
   .about-link,
   .contact-link {
     padding-left: 5px;
     padding-right: 5px;
   }
-
   .instagram,
   .facebbook {
     height: 25px;
     width: 25px;
   }
-
   .twitter {
     height: 30px;
     width: 50px;
   }
-
   .gmail {
     height: 15px;
     width: 25px;
   }
-
   .first-div {
     display: flex;
     flex-direction: column;
     margin: 20px 20px 10px 20px;
   }
-
   .second-div {
     margin: 10px;
   }
-
   .connor-img-div {
     margin-right: auto;
     margin-left: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
-
   .footer {
     padding: 5px;
   }
-
   @keyframes slidedown {
     0% {
       transform: translateX(30px);
       opacity: 0;
     }
-
     100% {
       transform: translateX(0px);
       opacity: 1;
     }
   }
-
   @keyframes slideup {
     0% {
       transform: translateY(50px);
       opacity: 0;
     }
-
     100% {
       transform: translateY(0px);
       opacity: 1;
     }
   }
-
   .third-div-outer {
     margin: 10px 20px 20px 20px;
   }
 }
-
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 480px) {
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 26px;
+  }
+  h4{
+    font-size: 14px;
+  }
   .first-div {
     display: flex;
     flex-direction: column;
   }
-
   .connor-img-div {
     height: 100%;
     width: 100%;
   }
-
   .second-div {
     text-size-adjust: 10px;
   }
-
-  .first-name {
-    padding: 5px;
-  }
-
   .footer,
   .socials-list {
     margin: auto;
     justify-content: center;
     display: flex;
+    gap: 10px;
     flex-direction: column;
   }
-
   .instagram,
   .facebbook {
+    padding-bottom: 10px;
     padding-left: 100px;
     height: 15px;
     width: 15px;
   }
-
   .twitter {
     padding-left: 0;
     height: 20px;
     width: 40px;
   }
-
   .gmail {
     height: 5px;
     width: 15px;

@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 *::-webkit-scrollbar {
   display: none;
   overflow: hidden;
 }
-
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.flip-card-05 p{
+  font-size: 10px;
+}
+.skill {
+  display: flex;
+  flex-direction: row;
+}
 .insta {
   animation-name: fadeInAnimation7;
   animation-delay: 2.5s;
@@ -10,7 +20,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .facebook {
   animation-name: fadeInAnimation7;
   animation-delay: 2.7s;
@@ -18,7 +27,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .twitter {
   animation-name: fadeInAnimation7;
   animation-delay: 2.9s;
@@ -26,7 +34,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .gmail {
   animation-name: fadeInAnimation7;
   animation-delay: 3.1s;
@@ -34,7 +41,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .copyright {
   animation-name: fadeInAnimation7;
   animation-delay: 3.3s;
@@ -42,7 +48,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .home {
   animation-name: fadeInAnimation7;
   animation-delay: 1s;
@@ -50,7 +55,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .about {
   animation-name: fadeInAnimation7;
   animation-delay: 1.2s;
@@ -58,7 +62,6 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 .contact {
   animation-name: fadeInAnimation7;
   animation-delay: 1.4s;
@@ -66,17 +69,14 @@
   animation-duration: 0.8s;
   animation-fill-mode: both;
 }
-
 @keyframes fadeInAnimation7 {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
 }
-
 .navbar,
 .welcome {
   animation-name: fadeInAnimation1;
@@ -85,7 +85,6 @@
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-
 @keyframes fadeInAnimation1 {
   0% {
     transform: translateY(-100px);
@@ -96,11 +95,9 @@
     opacity: 1;
   }
 }
-
 .first-name {
-  color: rgb(233, 255, 37);
+  color: #2D4059;
 }
-
 .socials-list {
   display: flex;
   list-style: none;
@@ -120,56 +117,49 @@
   padding-bottom: auto;
   height: min-content;
 }
-
+.links a{
+  color: #212529;
+}
 .copyright {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
   color: white;
 }
-
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
 .abo{
-  background-color: #abe590;
+  background-color: #2D4059;
 }
-
 .insta,
 .facebook,
 .twitter,
 .gmail {
   padding-right: 50px;
 }
-
 .about-div-1 {
     background-color: transparent;
     display: flex;
 }
-
 .about-div-2 {
     background-color: transparent;
 }
-
 .about-div-3 {
     background-color: transparent;
     display: flex;
 }
-
 .about-div-4 {
     background-color: transparent;
 }
-
 .basic-info {
-  background-color: #FEBE8C;
+  background-color: #EA5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
   background-color: transparent;
   width: 220px;
@@ -177,7 +167,6 @@ body {
   perspective: 1000px;
   margin-bottom: 20px;
 }
-
 .flip-card-inside {
   position: relative;
   width: 100%;
@@ -186,27 +175,21 @@ body {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
-
 .flip-card-01:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-
 .flip-card-02:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-
 .flip-card-03:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-
 .flip-card-04:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-
 .flip-card-05:hover .flip-card-inside {
   transform: rotateY(180deg);
 }
-
 .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
@@ -214,108 +197,112 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .flip-card-back {
   background-color: transparent;
-  color: white;
+  color: #212529;
   transform: rotateY(180deg);
 }
-
 .flip-card-div {
   justify-content: center;
   display: flex;
   flex-direction: row;
 }
-
 .flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
   margin-left: auto;
   margin-right: auto;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Sintony&display=swap');
+.p {
+  font-family: 'Sintony', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Source Sans 3', sans-serif;
+}
 .testimonials {
-  background-color: #F7A4A4;
+  background-color: #F07B3F;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .hobbies-interests {
-  background-color: #FEBE8C;
+  background-color: #EA5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .education-work {
-  background-color: coral;
+  background-color: #FFD460;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .skills {
-  background-color: coral;
+  background-color: #FFD460;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
 .projects {
-  background-color: burlywood;
+  background-color: #EA5455;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
   @media only screen and (max-width: 992px) {
+    .flip-card-05 p{
+      font-size: 9px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .navbar .navbar-nav {
+      display: flex;
+      flex-direction: row;
+    }
+    .nav-div{
+      display: flex;
+      flex-direction: row;
+    }
     .nav-list {
       display: flex;
       flex-direction: row;
     }
-  
     .home-link, .about-link, .contact-link {
       padding-left: 5px;
       padding-right: 5px;
     }
-  
     .instagram, .facebbook {
       height: 25px;
       width: 25px;
     }
-  
     .twitter {
       height: 30px;
       width: 50px;
     }
-  
     .gmail {
       height: 15px;
       width: 25px;
     }
-
     .about-div-1 {
       margin: 20px;
     }
-
     .about-div-2 {
       margin: 20px;
       padding-left: auto;
       padding-right: auto;
       display: flex;
+      flex-direction: column;
     }
-
     .about-div-3 {
       margin: 20px;
     }
-
     .about-div-4 {
       margin: 20px;
     }
-
     .testimonials {
       justify-content: center;
     }
-
     .flip-card-div {
       display: flex;
       flex-direction: column;
@@ -323,7 +310,6 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
-
     .flip-card-01, .flip-card-02, .flip-card-03, .flip-card-04, .flip-card-05 {
       padding: 10px;
       margin-left: auto;
@@ -332,9 +318,46 @@ body {
       margin-bottom: 10px;
       justify-content: center;
     }
-
     .flip-card-05 {
       padding-bottom: 20px;
       margin-bottom: 20px;
     }
 }
+@media only screen and (max-width: 540px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .socials-list li a img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    justify-content: center;
+  }
+  .socials-list{
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .about-div-1, .about-div-2, .about-div-3, .about-div-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .socials-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .basic-info {
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .education-work {
+    margin-bottom: 10px;
+  }
+  .flip-card-front img{
+    height: 200px;
+    width: 200px;
+  }
+}
+
